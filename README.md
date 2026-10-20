@@ -2,7 +2,7 @@
 
 Tools and session materials for teachers of multilingual learners, by Jennifer Hess.
 
-**Website:** https://jrh0090-glitch.github.io/professional-development/
+**Website:** https://jenniferhess.info/
 
 ## What's here
 
