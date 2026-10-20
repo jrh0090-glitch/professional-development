@@ -28,12 +28,20 @@
   li { margin-bottom: 6px; }
 
   .subjects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-  .subject { display: block; text-decoration: none; color: var(--ink); background: var(--panel);
-    border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; }
-  .subject:hover { border-color: var(--blue); background: var(--blue-soft); }
-  .subject:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .subject { display: flex; flex-direction: column; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .subject .open { display: block; flex: 1; text-decoration: none; color: var(--ink); padding: 18px 20px 12px; }
+  .subject .open:hover { background: var(--blue-soft); }
+  .subject a:focus-visible { outline: 3px solid var(--gold); outline-offset: -3px; }
   .subject strong { display: block; font-size: 21px; color: var(--blue); margin-bottom: 4px; }
   .subject span { color: var(--muted); font-size: 15px; }
+  .subject .dl { display: block; padding: 9px 20px; border-top: 1px solid var(--line); font-size: 15px; font-weight: 600; color: var(--blue); text-decoration: none; }
+  .subject .dl:hover { background: var(--blue-soft); }
+  .downloads { margin-top: 16px; }
+  .dl-all { display: inline-block; background: var(--blue); color: #fff !important; text-decoration: none; font-weight: 600;
+    padding: 8px 16px; border-radius: 4px; margin: 0 0 8px; }
+  .dl-all:hover { background: #163d6d; }
+  .downloads .note { display: block; }
 
   .steps { counter-reset: s; list-style: none; padding: 0; }
   .steps li { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 12px; align-items: start; margin-bottom: 12px; }
@@ -59,11 +67,24 @@
 
   <h2>Pick your subject</h2>
   <div class="subjects">
-    <a class="subject" href="ela.html"><strong>ELA</strong><span>Literary text stays in English. Essays get an outline frame.</span></a>
-    <a class="subject" href="history.html"><strong>History</strong><span>Primary sources stay in English, with a labeled summary. DBQ and essay outline frames.</span></a>
-    <a class="subject" href="science.html"><strong>Science</strong><span>Labs, CER conclusion frames, data tables kept blank, calculation setups.</span></a>
-    <a class="subject" href="math.html"><strong>Math</strong><span>Expressions in plain text, word problems retold, blank graphing grids. A paper fallback for IXL classes.</span></a>
+    <div class="subject">
+      <a class="open" href="ela.html"><strong>ELA</strong><span>Literary text stays in English. Essays get an outline frame.</span></a>
+      <a class="dl" href="ela.html" download="Bilingual_ELA_Prompts.html">Download</a>
+    </div>
+    <div class="subject">
+      <a class="open" href="history.html"><strong>History</strong><span>Primary sources stay in English, with a labeled summary. DBQ and essay outline frames.</span></a>
+      <a class="dl" href="history.html" download="Bilingual_History_Prompts.html">Download</a>
+    </div>
+    <div class="subject">
+      <a class="open" href="science.html"><strong>Science</strong><span>Labs, CER conclusion frames, data tables kept blank, calculation setups.</span></a>
+      <a class="dl" href="science.html" download="Bilingual_Science_Prompts.html">Download</a>
+    </div>
+    <div class="subject">
+      <a class="open" href="math.html"><strong>Math</strong><span>Expressions in plain text, word problems retold, blank graphing grids. A paper fallback for IXL classes.</span></a>
+      <a class="dl" href="math.html" download="Bilingual_Math_Prompts.html">Download</a>
+    </div>
   </div>
+  <p class="downloads"><a class="dl-all" href="bilingual-packages.zip" download>Download all four (.zip)</a> <span class="note">A saved copy opens in any browser without this site, but it won't update. Each copy shows its version date; check the <a href="https://github.com/jrh0090-glitch/professional-development/blob/main/bilingual-packages/CHANGELOG.md">changelog</a> for newer versions.</span></p>
 
   <h2>How it works</h2>
   <ol class="steps">
