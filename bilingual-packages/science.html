@@ -78,7 +78,7 @@
 </head>
 <body>
 <main>
-  <p class="saved-copy" id="saved-copy">Saved copy, version 2026-10-20. Check <a href="https://jenniferhess.info/bilingual-packages/">jenniferhess.info/bilingual-packages</a> for the latest version.</p>
+  <p class="saved-copy" id="saved-copy">Saved copy, version 2026-10-26. Check <a href="https://jenniferhess.info/bilingual-packages/">jenniferhess.info/bilingual-packages</a> for the latest version.</p>
   <h1>Making a Science assignment bilingual & classroom-ready</h1>
   <p class="lede">A four-prompt system for scaffolded, bilingual assignments. Run CHECK. This tells you if you need to SCAFFOLD. If yes, run SCAFFOLD; then run TRANSLATE. Finally, run FORMAT HTML to generate a printable, styled PDF layout. Works in Gemini or NotebookLM.</p>
 
@@ -195,7 +195,7 @@ OUTPUT
 3. Callout boxes for directions, word banks, terms banks, and glossaries: background #f7fafc; border 1px solid #e2e8f0; border-left 4px solid #3182ce; padding 10px 14px; border-radius 4px; margin-bottom 12px. "Background (not from the reading)" gets its own box after the terms bank, never combined with it.
 4. Readings in a serif box: font-family Georgia, serif; background #fffaf0; border 1px solid #feebc8; border-left 4px solid #dd6b20; padding 12px 16px; margin-bottom 15px. A procedure in a numbered list inside a plain bordered box (border 1px solid #cbd5e0; padding 10px 14px), with any safety line in bold. Each "[VISUAL: keep from original]" placeholder becomes a dashed box (border 2px dashed #a0aec0; min-height 3in; padding 16px; text-align center; color #4a5568; margin-bottom 15px) holding the placeholder text and any look-for list already in the document; never write a new one.
 5. Bilingual text: English in #1a202c; each Spanish translation directly beneath in italics, #4a5568. Formulas, units, and chemical formulas in the same font, never italic.
-6. Response cards: each question and its frames in a card (border 1px solid #cbd5e0; border-radius 6px; padding 10px 12px; margin-bottom 12px), the question in a light header inside it (background #edf2f7; padding 8px 10px; border-radius 4px; font-weight 600). Blanks and bracketed hints get border-bottom 1px dashed #4a5568. In a model example with a filled-in "because" clause, replace what follows "because" with [your reasoning]. A CER conclusion is three stacked cards labeled Claim, Evidence, Reasoning, each with at least three writing lines.
+6. Response cards: each question and its frames in a card (border 1px solid #cbd5e0; border-radius 6px; padding 10px 12px; margin-bottom 12px), the question in a light header inside it (background #edf2f7; padding 8px 10px; border-radius 4px; font-weight 600). Every blank (___) and every bracketed hint becomes an empty writing line: an inline-block span, min-width 1.5in, height 1.4em, border-bottom 1px solid #4a5568, with nothing printed on it. A bracketed hint's words go under its line in 7.5pt gray (#718096), without the brackets. A blank that ends a sentence frame runs to the right edge of the card, followed by one more full-width writing line. Turning blanks and hints into writing lines is the only change to the text. In a stacked English/Spanish frame, writing lines go only in the English line; in the Spanish line beneath it, each blank shows only its hint words in gray, with no line. In a model example with a filled-in "because" clause, replace what follows "because" with [your reasoning]. A CER conclusion is three stacked cards labeled Claim, Evidence, Reasoning, each with at least three writing lines.
 7. Tables: full width, borders #cbd5e0, light header shading, English and Spanish stacked in header cells. A data table keeps the original rows and columns, blank data cells stay blank and at least 0.4in tall, every row with its own blank stays its own table row, never stacked inside one cell, and a units row or column stays exactly as written. Blank cells of any organizer stay blank.</pre>
   </div>
 
@@ -211,6 +211,7 @@ OUTPUT
       <li>The model example is easier than what students must produce, not harder.</li>
       <li>Nothing on the page (frames, hints, model examples, Background) states the conclusion students are supposed to reach, and every Background fact is correct. Delete any "because…" clause or example reason that's already filled in.</li>
       <li>Nothing your rubric requires was dropped.</li>
+      <li>Every frame has room to write: an empty line for each blank, hint words under the line, nothing printed on it.</li>
       <li>No answer key is on the page, and no line tells students where to find answers. Search for [CHECK ORIGINAL] and fix or delete every one.</li>
       <li>The last item is complete. Gemini sometimes cuts off long HTML partway through; if it did, type "continue" in the same chat or run FORMAT HTML again in a new chat.</li>
       <li>Directions are in tú (Analiza, not Analice).</li>
@@ -226,7 +227,7 @@ OUTPUT
   </div>
   <p class="note">Paste it in the same chat, right after the TRANSLATE result, then Export to Docs from the reprinted version. If it still comes back plain, the Doc is correct in every other way; the italics can be added by hand for the few lines students will read most (directions and questions).</p>
 
-  <footer><a href="https://jenniferhess.info/bilingual-packages/">All packages</a> · Version 2026-10-20 · Jennifer Hess · ESOL Education · Huntsville City Schools · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></footer>
+  <footer><a href="https://jenniferhess.info/bilingual-packages/">All packages</a> · Version 2026-10-26 · Jennifer Hess · ESOL Education · Huntsville City Schools · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></footer>
 </main>
 
 <script>
