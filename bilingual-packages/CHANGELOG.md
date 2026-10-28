@@ -7,6 +7,8 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA SCAFFOLD keeps copyright lines from the original.
 - ELA SCAFFOLD builds the model example on a quote and question that none of the real items asks for, so it doesn't use up an answer students need.
 - ELA TRANSLATE: a Spanish gloss on a quoted phrase gives its plain meaning, not a word-for-word copy, and Spanish stays gender-neutral where the English doesn't state a person's gender (la persona amada for "the beloved").
+- ELA SCAFFOLD writes the model example's answer out in full, without brackets around the part a student would fill in.
+- Teacher check (ELA, History, Science): new line confirming no frame or hint gives away the answer.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
