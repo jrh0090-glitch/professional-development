@@ -173,6 +173,7 @@ STAYS IN ENGLISH
 - Titles of works, proper nouns, and any word students must locate or produce. In a bank or glossary, each entry is one line, English / Spanish; an entry that already has a Spanish gloss gets no second line.
 - "[VISUAL: keep from original]" placeholders, which get a Spanish line beneath; copyright lines and standards codes.
 - Convert any LaTeX ($...$) to plain text; a line that is only a formula gets no second line.
+Text that stays in English appears once; never repeat it beneath itself as its Spanish line.
 Everything else written for students is translated, including readings, background, procedures, diagram labels listed in the terms bank, model examples, and every frame with its fixed words and bracketed hints. Science terms use the standard Spanish term with the English in parentheses on first use (la membrana celular (cell membrane), la fotosíntesis, la densidad); a Latin or Greek scientific name stays as written.
 
 SPANISH
@@ -190,7 +191,7 @@ OUTPUT
     <header><b>FORMAT HTML (Print-to-PDF)</b><button class="copy" data-target="p-html">Copy prompt</button></header>
 <pre id="p-html">Convert the entire document above into one complete, standalone HTML file styled for student printing. Do not summarize, shorten, add, or omit anything. Remove any citation tags such as [cite: 1]. Return ONLY the HTML code block.
 
-1. Page: @page { size: letter; margin: 0.6in; }. Font stack system-ui, -apple-system, Arial, sans-serif at 10.5pt, line-height 1.4. page-break-inside: avoid on question boxes.
+1. Page: @page { size: letter; margin: 0.6in; }. Font stack system-ui, -apple-system, Arial, sans-serif at 10.5pt, line-height 1.4. page-break-inside: avoid on question boxes. In a numbered list, the number comes from the list itself; never type it again in the item text.
 2. Header: a table with the title, its Spanish title beneath, and one underline slot each for Name/Nombre, Date/Fecha, and Period, each label written once as English / Spanish (Name / Nombre), with no second line for the Spanish.
 3. Callout boxes for directions, word banks, terms banks, and glossaries: background #f7fafc; border 1px solid #e2e8f0; border-left 4px solid #3182ce; padding 10px 14px; border-radius 4px; margin-bottom 12px. "Background (not from the reading)" gets its own box after the terms bank, never combined with it.
 4. Readings in a serif box: font-family Georgia, serif; background #fffaf0; border 1px solid #feebc8; border-left 4px solid #dd6b20; padding 12px 16px; margin-bottom 15px. A procedure in a numbered list inside a plain bordered box (border 1px solid #cbd5e0; padding 10px 14px), with any safety line in bold. Each "[VISUAL: keep from original]" placeholder becomes a dashed box (border 2px dashed #a0aec0; min-height 3in; padding 16px; text-align center; color #4a5568; margin-bottom 15px) holding the placeholder text and any look-for list already in the document; never write a new one.

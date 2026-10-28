@@ -9,6 +9,10 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA TRANSLATE: a Spanish gloss on a quoted phrase gives its plain meaning, not a word-for-word copy, and Spanish stays gender-neutral where the English doesn't state a person's gender (la persona amada for "the beloved").
 - ELA SCAFFOLD writes the model example's answer out in full, without brackets around the part a student would fill in.
 - Teacher check (ELA, History, Science): new line confirming no frame or hint gives away the answer.
+- ELA SCAFFOLD leaves out the word bank when students write their own poem or story.
+- ELA SCAFFOLD keeps the © symbol on copyright lines.
+- TRANSLATE (ELA, History, Science): text that stays in English, such as a poem's lines, appears once instead of being repeated as its own Spanish line.
+- FORMAT HTML (all four): numbered lists no longer print the number twice ("1. 1.").
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
