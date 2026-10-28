@@ -16,6 +16,9 @@ Newest first. Each package's footer shows the version date it matches.
 - SCAFFOLD (ELA, History, Science): when no line fits the model example, or there is no reading, the model is written without quotes. It no longer prints "no supporting line found" on the student page.
 - ELA SCAFFOLD keeps the original title, or names the task when there is none, and never labels the page "scaffolded."
 - ELA SCAFFOLD, essays: the model example is one body-paragraph block, not a whole outline, and the thesis frame appears once, in the introduction.
+- ELA SCAFFOLD keeps the original prompt and task text word for word, and adds no requirement the original doesn't set (such as a paragraph count).
+- ELA SCAFFOLD: with no reading, the model example names no real book, author, or character and quotes nothing.
+- FORMAT HTML (all four): directions, banks, and glossaries print before the model example and the questions.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
