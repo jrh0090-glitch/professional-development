@@ -13,6 +13,9 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA SCAFFOLD keeps the © symbol on copyright lines.
 - TRANSLATE (ELA, History, Science): text that stays in English, such as a poem's lines, appears once instead of being repeated as its own Spanish line.
 - FORMAT HTML (all four): numbered lists no longer print the number twice ("1. 1.").
+- SCAFFOLD (ELA, History, Science): when no line fits the model example, or there is no reading, the model is written without quotes. It no longer prints "no supporting line found" on the student page.
+- ELA SCAFFOLD keeps the original title, or names the task when there is none, and never labels the page "scaffolded."
+- ELA SCAFFOLD, essays: the model example is one body-paragraph block, not a whole outline, and the thesis frame appears once, in the introduction.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
