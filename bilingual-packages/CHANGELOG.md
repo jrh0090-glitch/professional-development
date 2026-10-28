@@ -20,6 +20,9 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA SCAFFOLD: with no reading, the model example names no real book, author, or character and quotes nothing.
 - FORMAT HTML (all four): directions, banks, and glossaries print before the model example and the questions.
 - ELA SCAFFOLD, essays: every outline slot, including transitions, has a blank for the student's own words, never a finished sentence.
+- ELA SCAFFOLD: a required transition word starts a frame, and the rest of that sentence is the student's blank. This fixes transitions and hooks printing as finished sentences.
+- ELA TRANSLATE: body paragraph = párrafo de desarrollo.
+- FORMAT HTML (all four): the page's HTML title is the worksheet's own title, so a printed header never says "scaffolded."
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
