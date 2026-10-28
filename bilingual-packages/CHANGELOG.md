@@ -19,6 +19,7 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA SCAFFOLD keeps the original prompt and task text word for word, and adds no requirement the original doesn't set (such as a paragraph count).
 - ELA SCAFFOLD: with no reading, the model example names no real book, author, or character and quotes nothing.
 - FORMAT HTML (all four): directions, banks, and glossaries print before the model example and the questions.
+- ELA SCAFFOLD, essays: every outline slot, including transitions, has a blank for the student's own words, never a finished sentence.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
