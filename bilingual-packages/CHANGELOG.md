@@ -30,6 +30,8 @@ Newest first. Each package's footer shows the version date it matches.
 - History SCAFFOLD: a data table printed as text gets no [VISUAL] marker, and "things to look for" name where to look (a label, an axis, a column), never what the visual shows.
 - History SCAFFOLD: no labels explaining how a section was built (such as "based on an unused source quote").
 - FORMAT HTML (all four): leftover Markdown is turned into HTML, so no asterisks print around glosses.
+- History SCAFFOLD: never adds a requirement the original doesn't set, such as outside knowledge. A DBQ body block has a claim, two citations, and an explanation, nothing else. The model for a DBQ or essay is one body-paragraph block, never a thesis for the real prompt.
+- TRANSLATE (all four): a glossary entry keeps its English definition, with the Spanish definition beneath it.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
