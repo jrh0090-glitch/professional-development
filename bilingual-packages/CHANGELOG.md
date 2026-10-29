@@ -32,6 +32,7 @@ Newest first. Each package's footer shows the version date it matches.
 - FORMAT HTML (all four): leftover Markdown is turned into HTML, so no asterisks print around glosses.
 - History SCAFFOLD: never adds a requirement the original doesn't set, such as outside knowledge. A DBQ body block has a claim, two citations, and an explanation, nothing else. The model for a DBQ or essay is one body-paragraph block, never a thesis for the real prompt.
 - TRANSLATE (all four): a glossary entry keeps its English definition, with the Spanish definition beneath it.
+- History TRANSLATE: body paragraph = párrafo de desarrollo; tenement = casa de vecindad (not the regional "conventillo").
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
