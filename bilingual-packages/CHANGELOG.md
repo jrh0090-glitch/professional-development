@@ -36,6 +36,8 @@ Newest first. Each package's footer shows the version date it matches.
 - Science SCAFFOLD trimmed from 787 to 747 words, with fixes carried over from ELA and History: no "say so" note when the word bank is short; "things to look for" in a visual name where to look, never the trend; the model's quote comes from outside the word bank; a required transition word starts a frame and the rest of the sentence is blank; no labels explaining how a section was built.
 - Science SCAFFOLD: when an item asks students to name a term, the terms bank lists the term with no definition, so the bank can't be matched word for word to the questions. The model example is written out in full with no blanks. Every heading, overview, direction, and item number from the original is kept. Shorter wording elsewhere keeps the prompt at 746 words.
 - Science CHECK: when the task uses a diagram or graph, CHECK lists every label the questions name and says whether each one is actually on it (or tells the teacher to check, if it can't read the image). It no longer prints "I cannot read" when it can read the labels.
+- Science SCAFFOLD: the model example is described as a finished student answer with every blank already filled in (Gemini kept leaving the reasoning blank).
+- FORMAT HTML (all four): a model or worked example prints complete, with no blanks and no writing lines after it.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
