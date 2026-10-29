@@ -38,6 +38,8 @@ Newest first. Each package's footer shows the version date it matches.
 - Science CHECK: when the task uses a diagram or graph, CHECK lists every label the questions name and says whether each one is actually on it (or tells the teacher to check, if it can't read the image). It no longer prints "I cannot read" when it can read the labels.
 - Science SCAFFOLD: the model example is described as a finished student answer with every blank already filled in (Gemini kept leaving the reasoning blank).
 - FORMAT HTML (all four): a model or worked example prints complete, with no blanks and no writing lines after it.
+- Science SCAFFOLD: every part of the model example, reasoning included, comes from the materials, and Gemini picks an item the materials fully answer. This removes the conflict with the no-outside-facts rule that kept leaving the model's reasoning blank. Simplified directions keep every requirement the original states (such as "your knowledge of science").
+- FORMAT HTML (ELA, History, Science): a sentence frame replaces the original's answer line instead of printing both.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
