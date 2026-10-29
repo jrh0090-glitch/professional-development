@@ -189,7 +189,7 @@ OUTPUT
   <h2>Prompt 4: FORMAT HTML <small>run after TRANSLATE to generate a print-ready PDF layout</small></h2>
   <div class="prompt">
     <header><b>FORMAT HTML (Print-to-PDF)</b><button class="copy" data-target="p-html">Copy prompt</button></header>
-<pre id="p-html">Convert the entire document above into one complete, standalone HTML file styled for student printing. Do not summarize, shorten, add, or omit anything. Remove any citation tags such as [cite: 1]. Return ONLY the HTML code block.
+<pre id="p-html">Convert the entire document above into one complete, standalone HTML file styled for student printing. Do not summarize, shorten, add, or omit anything. Remove any citation tags such as [cite: 1], and turn leftover Markdown (*, **, #) into HTML so no asterisks print. Return ONLY the HTML code block.
 
 1. Page: @page { size: letter; margin: 0.6in; }. Font stack system-ui, -apple-system, Arial, sans-serif at 10.5pt, line-height 1.4. page-break-inside: avoid on question boxes. In a numbered list, the number comes from the list itself; never type it again in the item text.
 2. Header: a table with the title, its Spanish title beneath, and one underline slot each for Name/Nombre, Date/Fecha, and Period, each label written once as English / Spanish (Name / Nombre), with no second line for the Spanish. The HTML title tag is the worksheet's own title.

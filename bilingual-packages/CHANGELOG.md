@@ -26,6 +26,10 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA SCAFFOLD: the model example's quote comes from outside the word bank, so students keep every bank quote for their own answers.
 - TRANSLATE (all four): in a glossary, the term stays on one line as English / Spanish, and the definition's Spanish goes on its own line beneath instead of running on after a slash.
 - History SCAFFOLD trimmed from 766 to 740 words. It no longer tells Gemini to "say so" when the quote bank is short (that note could print on the page). The model example's quote comes from outside the quote bank, and a required transition word starts a frame with the rest of the sentence left blank, matching ELA.
+- History SCAFFOLD: background facts only when the task asks for outside knowledge in words, so a DBQ that doesn't ask gets no background box.
+- History SCAFFOLD: a data table printed as text gets no [VISUAL] marker, and "things to look for" name where to look (a label, an axis, a column), never what the visual shows.
+- History SCAFFOLD: no labels explaining how a section was built (such as "based on an unused source quote").
+- FORMAT HTML (all four): leftover Markdown is turned into HTML, so no asterisks print around glosses.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
