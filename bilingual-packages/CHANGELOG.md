@@ -45,6 +45,8 @@ Newest first. Each package's footer shows the version date it matches.
 - FORMAT HTML (all four): every question card starts with its number, and if the original's numbers didn't come through, Gemini numbers them 1, 2, 3 in order (moved into the card rule after the first version was ignored). Word and Google Docs list numbering can be invisible to Gemini, so teachers can upload files as they are. New teacher check line: item numbers match the original.
 - Science SCAFFOLD: the background list never supplies a science idea an item asks students to use (the lab test added "lower density floats" next to a question asking exactly that). A data question's model uses a different number set, never the assignment's own data.
 - FORMAT HTML (ELA, History, Science): a model ending in "..." also ends at a complete sentence. Science FORMAT keeps superscripts and subscripts (cm³, CO₂) as written.
+- FORMAT HTML (ELA, History, Science): when a model's placeholder is cut, a hanging "because" or "so" goes with it. A blank with no hint gets a short one, so the Spanish line never has an unexplained gap.
+- Science teacher check: examples of frames that hand students the reasoning, and to delete that part.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
