@@ -24,6 +24,7 @@ Newest first. Each package's footer shows the version date it matches.
 - ELA TRANSLATE: body paragraph = párrafo de desarrollo.
 - FORMAT HTML (all four): the page's HTML title is the worksheet's own title, so a printed header never says "scaffolded."
 - ELA SCAFFOLD: the model example's quote comes from outside the word bank, so students keep every bank quote for their own answers.
+- TRANSLATE (all four): in a glossary, the term stays on one line as English / Spanish, and the definition's Spanish goes on its own line beneath instead of running on after a slash.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
