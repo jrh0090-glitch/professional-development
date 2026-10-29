@@ -41,7 +41,7 @@ Newest first. Each package's footer shows the version date it matches.
 - Science SCAFFOLD: every part of the model example, reasoning included, comes from the materials, and Gemini picks an item the materials fully answer. This removes the conflict with the no-outside-facts rule that kept leaving the model's reasoning blank. Simplified directions keep every requirement the original states (such as "your knowledge of science").
 - FORMAT HTML (ELA, History, Science): a sentence frame replaces the original's answer line instead of printing both.
 - Science SCAFFOLD: "things to look for" never name a label an item asks students to find. For a diagram, the model example identifies one label no item asks about, so it never needs reasoning the materials don't give.
-- Step 1 instructions (all four): type question numbers by hand, because Word's automatic list numbering can disappear in the output.
+- Step 1 instructions (all four): question numbers must be plain text, because automatic list numbering can disappear in the output; Ctrl+Z undoes Word's auto-list right after typing "1.".
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
