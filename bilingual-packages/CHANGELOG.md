@@ -42,7 +42,7 @@ Newest first. Each package's footer shows the version date it matches.
 - FORMAT HTML (ELA, History, Science): a sentence frame replaces the original's answer line instead of printing both.
 - Science SCAFFOLD: "things to look for" never name a label an item asks students to find. For a diagram, the model example identifies one label no item asks about, so it never needs reasoning the materials don't give.
 - FORMAT HTML (all four): if a model example still has a bracketed placeholder such as [your reasoning], the sentence ends before it, so the model prints as a finished sentence.
-- FORMAT HTML (all four): if the items come through with no numbers, Gemini numbers them 1, 2, 3 in order. Word and Google Docs list numbering can be invisible to Gemini, so teachers can upload files as they are. New teacher check line: item numbers match the original.
+- FORMAT HTML (all four): every question card starts with its number, and if the original's numbers didn't come through, Gemini numbers them 1, 2, 3 in order (moved into the card rule after the first version was ignored). Word and Google Docs list numbering can be invisible to Gemini, so teachers can upload files as they are. New teacher check line: item numbers match the original.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
