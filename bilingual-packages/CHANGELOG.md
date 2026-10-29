@@ -25,6 +25,7 @@ Newest first. Each package's footer shows the version date it matches.
 - FORMAT HTML (all four): the page's HTML title is the worksheet's own title, so a printed header never says "scaffolded."
 - ELA SCAFFOLD: the model example's quote comes from outside the word bank, so students keep every bank quote for their own answers.
 - TRANSLATE (all four): in a glossary, the term stays on one line as English / Spanish, and the definition's Spanish goes on its own line beneath instead of running on after a slash.
+- History SCAFFOLD trimmed from 766 to 740 words. It no longer tells Gemini to "say so" when the quote bank is short (that note could print on the page). The model example's quote comes from outside the quote bank, and a required transition word starts a frame with the rest of the sentence left blank, matching ELA.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
