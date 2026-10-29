@@ -34,6 +34,7 @@ Newest first. Each package's footer shows the version date it matches.
 - TRANSLATE (all four): a glossary entry keeps its English definition, with the Spanish definition beneath it.
 - History TRANSLATE: body paragraph = párrafo de desarrollo; tenement = casa de vecindad (not the regional "conventillo").
 - Science SCAFFOLD trimmed from 787 to 747 words, with fixes carried over from ELA and History: no "say so" note when the word bank is short; "things to look for" in a visual name where to look, never the trend; the model's quote comes from outside the word bank; a required transition word starts a frame and the rest of the sentence is blank; no labels explaining how a section was built.
+- Science SCAFFOLD: when an item asks students to name a term, the terms bank lists the term with no definition, so the bank can't be matched word for word to the questions. The model example is written out in full with no blanks. Every heading, overview, direction, and item number from the original is kept. Shorter wording elsewhere keeps the prompt at 746 words.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
