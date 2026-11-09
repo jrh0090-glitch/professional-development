@@ -47,6 +47,8 @@ Newest first. Each package's footer shows the version date it matches.
 - FORMAT HTML (ELA, History, Science): a model ending in "..." also ends at a complete sentence. Science FORMAT keeps superscripts and subscripts (cm³, CO₂) as written.
 - FORMAT HTML (ELA, History, Science): when a model's placeholder is cut, a hanging "because" or "so" goes with it. A blank with no hint gets a short one, so the Spanish line never has an unexplained gap.
 - Science teacher check: examples of frames that hand students the reasoning, and to delete that part.
+- Math CHECK: lost parentheses are now on the notation list (the first Math test turned 3(x − 4) = 18 into 3x − 4 = 18, which erased the mistake students were supposed to find). The teacher check line for notation now names parentheses too.
+- Math SCAFFOLD: the background list gives an example of a tested idea it must never state (total = rate × units + starting fee).
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
