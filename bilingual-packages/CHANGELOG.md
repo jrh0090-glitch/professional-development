@@ -50,6 +50,7 @@ Newest first. Each package's footer shows the version date it matches.
 - Math CHECK: lost parentheses are now on the notation list (the first Math test turned 3(x − 4) = 18 into 3x − 4 = 18, which erased the mistake students were supposed to find). The teacher check line for notation now names parentheses too.
 - Math SCAFFOLD: the background list gives an example of a tested idea it must never state (total = rate × units + starting fee).
 - Math CHECK: when the notation line finds anything garbled, the next step is to save the file as a PDF and run CHECK again. In the first Math test, CHECK caught a flattened fraction (22/3 read as 223) but not the parentheses lost from the same equation-editor file.
+- Math step 1: teachers save the Word or Google Doc as a PDF and upload that. Tested: the equation-editor file lost the parentheses in 3(x − 4) = 18 when uploaded as Word, and kept them, along with 22/3, when uploaded as an exported PDF.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
