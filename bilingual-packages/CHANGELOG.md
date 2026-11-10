@@ -56,6 +56,7 @@ Newest first. Each package's footer shows the version date it matches.
 - Math FORMAT HTML: number lines keep every tick label; a blank with no hint gets a short one; a model ending in "..." or a placeholder ends at a complete sentence. Two duplicate lines cut.
 - Math CHECK: the PDF re-upload step now only appears when the upload was a Word or Google Doc. If a PDF still has garbled math, CHECK tells the teacher to keep its list, continue, and fix those items on the finished page (it was sending PDF uploads back to make a PDF). Step 1 says the same.
 - Math teacher check: multiple-choice options keep their original letters (the quiz test swapped options B and C after a PDF upload, and only one of the two was flagged).
+- Math CHECK and step 1: when CHECK lists garbled math, try the other upload format once (PDF if it was a Doc, the Doc if it was a PDF), and keep the version with the shorter list. Tested on the quiz: the PDF garbled five answer choices and swapped two; the Word file got every choice right. On the word problems it was the reverse: Word lost the parentheses and the PDF kept them.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
