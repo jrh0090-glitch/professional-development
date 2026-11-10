@@ -52,6 +52,8 @@ Newest first. Each package's footer shows the version date it matches.
 - Math CHECK: when the notation line finds anything garbled, the next step is to save the file as a PDF and run CHECK again. In the first Math test, CHECK caught a flattened fraction (22/3 read as 223) but not the parentheses lost from the same equation-editor file.
 - Math step 1: teachers save the Word or Google Doc as a PDF and upload that. Tested: the equation-editor file lost the parentheses in 3(x − 4) = 18 when uploaded as Word, and kept them, along with 22/3, when uploaded as an exported PDF.
 - Math SCAFFOLD: an error-analysis worked example shows a different kind of mistake than the student's item (the test run modeled the same forgot-to-distribute error that problem 5 asks students to find).
+- Math SCAFFOLD: error-analysis, proof, and explain worked examples must differ in kind from the student's items, never the student's item relabeled. The proofs test turned Proof 1 into a worked example by renaming A, B, C, D as J, K, L, M, which handed students every reason. Two example lists shortened to make room.
+- Math FORMAT HTML: number lines keep every tick label; a blank with no hint gets a short one; a model ending in "..." or a placeholder ends at a complete sentence. Two duplicate lines cut.
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
