@@ -55,6 +55,7 @@ Newest first. Each package's footer shows the version date it matches.
 - Math SCAFFOLD: error-analysis, proof, and explain worked examples must differ in kind from the student's items, never the student's item relabeled. The proofs test turned Proof 1 into a worked example by renaming A, B, C, D as J, K, L, M, which handed students every reason. Two example lists shortened to make room.
 - Math FORMAT HTML: number lines keep every tick label; a blank with no hint gets a short one; a model ending in "..." or a placeholder ends at a complete sentence. Two duplicate lines cut.
 - Math CHECK: the PDF re-upload step now only appears when the upload was a Word or Google Doc. If a PDF still has garbled math, CHECK tells the teacher to keep its list, continue, and fix those items on the finished page (it was sending PDF uploads back to make a PDF). Step 1 says the same.
+- Math teacher check: multiple-choice options keep their original letters (the quiz test swapped options B and C after a PDF upload, and only one of the two was flagged).
 - FORMAT HTML (all four): one writing line per header field, labeled once in both languages (Name / Nombre), instead of a second line for the Spanish label.
 - FORMAT HTML (ELA, History, Science): the two writing lines at the end of each question print dark enough to see.
 
